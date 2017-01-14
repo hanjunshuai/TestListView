@@ -17,9 +17,11 @@ public class MainActivity extends AppCompatActivity {
         initView();
     }
 
+    /**
+     * Listview+ArrayAdapter
+     */
     private void initView() {
         listView = (ListView) findViewById(R.id.lv_main);
-
         //准备集合数据
         String[] dada = {"A", "B", "C", "D", "E", "F", "g", "H", "I", "J", "K", "O", "P", "D", "DS"};
         //准备ArrayAdapter对象
