@@ -39,6 +39,7 @@ public class MyAdapter extends BaseAdapter {
         return position;
     }
 
+    //返回带数据当前行的item视图对象
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
