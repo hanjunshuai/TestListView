@@ -1,4 +1,7 @@
 package hjs.shougang.com.testlistviewgit;
+/**
+ * SimpleAdapter
+ */
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

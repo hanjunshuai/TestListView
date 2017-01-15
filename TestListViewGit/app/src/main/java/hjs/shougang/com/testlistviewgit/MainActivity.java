@@ -1,4 +1,7 @@
 package hjs.shougang.com.testlistviewgit;
+/**
+ * Listview+ArrayAdapter
+ */
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
         initView();
     }
 
-    /**
-     * Listview+ArrayAdapter
-     */
     private void initView() {
         listView = (ListView) findViewById(R.id.lv_main);
         //准备集合数据
